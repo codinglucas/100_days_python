@@ -45,5 +45,5 @@ for x in range(0, n_numbers):
         random_index = random.randint(0, len(password)-1)
     password[random_index] = random_letter
 
-
+# can also use random.shuffle from random lib, as it goes: password = ['char1', 'char2'...] -> random.shuffle(password)
 print(''.join(password))
